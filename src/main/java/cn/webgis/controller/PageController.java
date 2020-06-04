@@ -87,6 +87,7 @@ public class PageController {
     public ModelAndView pieChart(){
         return new ModelAndView("pieChart");
     }
+
     @RequestMapping("superIntro")
     public ModelAndView superInfo(){
         return new ModelAndView("superIntro");
@@ -95,6 +96,11 @@ public class PageController {
     @RequestMapping("destinationIntro")
     public ModelAndView destinationIntro(){
         return new ModelAndView("destinationIntro");
+    }
+
+    @RequestMapping("login_lsl")
+    public ModelAndView login_lsl(){
+        return new ModelAndView("login_lsl");
     }
 
 }
