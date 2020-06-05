@@ -103,4 +103,8 @@ public class PageController {
         return new ModelAndView("login_lsl");
     }
 
+    @RequestMapping("login_cyj")
+    public ModelAndView login_cyj() { return new ModelAndView("login_cyj"); }
+
+
 }
